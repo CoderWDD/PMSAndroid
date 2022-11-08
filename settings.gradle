@@ -14,3 +14,8 @@ dependencyResolutionManagement {
 }
 rootProject.name = "PMSAndroid"
 include ':app'
+include ':common'
+include ':project'
+include ':team'
+include ':calendar'
+include ':profile'
