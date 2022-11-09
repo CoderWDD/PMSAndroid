@@ -6,9 +6,9 @@ ext{
     androidVersionName = "1.0"
 
     // Libraries version of the project
-    coreKtxVersion = "1.8.0"
+    coreKtxVersion = "1.7.0"
     appCompatVersion = "1.4.2"
-    materialVersion = "1.6.1"
+    materialVersion = "1.7.0"
     hiltVersion = "1.0.0"
     lifecycleVersion = "2.5.1"
     roomVersion = "2.4.3"
@@ -46,6 +46,6 @@ ext{
             paging:"androidx.paging:paging-runtime:$pagingVersion",
 
             navigation: "androidx.navigation:navigation-fragment-ktx:$navigationVersion",
-            navigationUi:"androidx.navigation:navigation-ui-ktx:$navigationVersion"
+            navigationUi:"androidx.navigation:navigation-ui-ktx:$navigationVersion",
     ]
 }
