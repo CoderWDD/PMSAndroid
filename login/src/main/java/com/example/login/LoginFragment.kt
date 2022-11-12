@@ -1,7 +1,5 @@
 package com.example.login
 
-import android.content.res.Resources
-import android.graphics.Color
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -20,7 +18,7 @@ class LoginFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        val viewBinding = FragmentLoginBinding.inflate(layoutInflater, container, false)
+        val viewBinding = com.example.login.databinding.FragmentLoginBinding.inflate(layoutInflater, container, false)
 
         viewBinding.headerTitle.background = LoginHeadBGDrawable(ContextCompat.getColor(requireContext(), R.color.header))
         return viewBinding.root
